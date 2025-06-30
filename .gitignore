@@ -1,0 +1,76 @@
+# Audio working files
+*.aup3
+*.aup
+*.pkf
+*.tmp
+*.temp
+
+# Large audio files (consider using Git LFS instead)
+*.wav
+*.aiff
+*.flac
+
+# Compressed audio (may want to track some of these)
+*.mp3
+*.m4a
+*.ogg
+
+# DAW project files (some may want to be tracked)
+*.als
+*.logic
+*.ptx
+*.cpr
+*.flp
+*.reason
+
+# Audio plugins and presets
+*.fxp
+*.fxb
+*.vstpreset
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Temporary directories
+temp/
+cache/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Node.js (if using for audio processing)
+node_modules/
+npm-debug.log*
+
+# Unity (if integrating with Unity projects)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+.vs/
+
+# Documentation build
+docs/_build/
